@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+ul {
+  list-style-type: none; /*To avoid the dots*/
+}
+
+li {
+  display: inline-block;
+}
+
+/* :hover is a pseudo-class
+a colon inside of a css selector always means a pseudo-class or pseudo-element */
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  background-color: rgb(230, 230, 230);
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: rgb(100, 100, 100);
+  margin: 0 5px;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  box-shadow: 1px 3px 5px rgb(87, 87, 87);
+  position: relative;
+  top: -3px;
+  color: #555658;
+}
+
+button:active {
+  box-shadow: 0px 2px 4px rgb(255, 255, 255);
+  top: 0px;
+}
+
+#nav-right-side {
+  display: inline-block;
+  position: fixed;
+  right: 40px;
+  top: 10px;
+}
+
+#nav {
+  margin-top: 20px;
+  margin-left: 24px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+#name-initial-nav {
+  background-color: rgb(71, 48, 48);
+  height: 27px;
+  width: 22px;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+#name-initial-nav:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-google {
+  text-align: center;
+  position: relative;
+  top: 130px;
+}
+
+#google-h1 {
+  font-size: 70px;
+}
+
+#google-input {
+  height: 45px;
+  width: 550px;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 30px;
+  position: relative;
+  top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 20px;
+  outline: none;
+}
+
+#google-input:hover {
+  /* 4 different values you can add
+    1. The shadow to the right - hardly used
+    2. The shadow to the bottom - commonly used
+    3. Add a blur effect - very common
+    4 The color */
+  box-shadow: 0px 1px 4px rgb(170, 170, 170);
+}
+
+#google-input:focus {
+  box-shadow: 0px 1px 4px rgb(170, 170, 170);
+}
+
+#google-input-container {
+  position: relative;
+  top: 60px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  line-height: 40px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+#footer-country {
+  border-bottom: 1px solid #e4e4e4;
+  padding-left: 27px;
+  text-align: left;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+#footer ul {
+  margin-left: 24px;
+  font-size: 13px;
+  color: #5f6368;
+}
+
+#footer-right-side {
+  position: fixed;
+  right: 40px;
+  display: inline-block;
+}
+
+.separator {
+  margin-left: 16px;
+}
+
+.google-letters {
+  margin-left: -16px;
+}
