@@ -2,35 +2,46 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
+    <!--load all font awesome styles-->
+    <link rel="stylesheet" href="fontAwesomeCss/all.min.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Google</title>
+    <title>Goagle</title>
   </head>
   <body>
     <div>
-      <div id="nav">
-        <ul id="nav-ul">
-          <li class="nav-items">About</li>
-          <li class="separator nav-items">Store</li>
-          <div id="nav-right-side">
-            <li class="separator nav-items">Gmail</li>
-            <li class="separator nav-items">Images</li>
-            <li id="name-initial-nav" class="separator nav-items">A</li>
-          </div>
-        </ul>
-      </div>
-      <div id="main-google">
-        <h1 id="google-h1">
-          <span style="color: rgb(64, 115, 209)">G</span>
-          <span style="color: red" class="google-letters">o</span>
-          <span style="color: orange" class="google-letters">o</span>
-          <span style="color: rgb(64, 115, 209)" class="google-letters">g</span>
-          <span style="color: green" class="google-letters">l</span>
-          <span style="color: red" class="google-letters">e</span>
+      <ul class="lists">
+        <div class="nav left-side-items">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Store</a></li>
+        </div>
+        <div class="nav right-side-items">
+          <li><a href="#">Gmail</a></li>
+          <li><a href="#">Images</a></li>
+          <li id="name-initial-nav">
+            <a id="name-initial" href="#">A</a>
+          </li>
+        </div>
+      </ul>
+      <div id="main-goagle">
+        <h1 id="goagle-h1">
+          <span style="color: rgb(64, 115, 209);">G</span>
+          <span style="color: red;" class="goagle-letters">o</span>
+          <span style="color: orange;" class="goagle-letters">a</span>
+          <span style="color: rgb(64, 115, 209);" class="goagle-letters"
+            >g</span
+          >
+          <span style="color: green;" class="goagle-letters">l</span>
+          <span style="color: red;" class="goagle-letters">e</span>
         </h1>
-        <input id="google-input" type="text" />
-        <div id="google-input-container">
-          <button>Google Search</button>
+        <div class="input-icons">
+          <i class="fas fa-search icon"></i>
+          <input id="goagle-input" type="text" />
+          <i class="fas fa-microphone icon"></i>
+        </div>
+
+        <div id="goagle-button-container">
+          <button>Goagle Search</button>
           <button>I'm feeling lucky</button>
         </div>
       </div>
@@ -38,14 +49,16 @@
         <div id="footer-country">
           <span>United Kingdom</span>
         </div>
-        <ul>
-          <li class="footer-items">Advertising</li>
-          <li class="separator footer-items">Business</li>
-          <li class="separator footer-items">How Search works</li>
-          <div id="footer-right-side">
-            <li class="separator footer-items">Privacy</li>
-            <li class="separator footer-items">Terms</li>
-            <li class="separator footer-items">Settings</li>
+        <ul class="lists">
+          <div class="bottom-footer left-side-items">
+            <li>Advertising</li>
+            <li>Business</li>
+            <li>How Search works</li>
+          </div>
+          <div class="bottom-footer right-side-items">
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Settings</li>
           </div>
         </ul>
       </div>
